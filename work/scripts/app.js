@@ -180,7 +180,7 @@
             results.key = key;
             results.label = label;
             results.created = json.query.created;
-            app.up(results);
+            app.updateForecastCard(results);
           });
         }
       });
